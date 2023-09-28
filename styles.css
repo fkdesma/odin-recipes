@@ -1,0 +1,80 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #010104;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 32px;
+    color: #ebe9fc;
+}
+
+.home-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome{
+    color: #ebe9fc;
+    font-size: 28px;
+    margin: 0 20px;
+    width: 30%;
+}
+
+img{
+    width: 30%;
+}
+
+.recipe-list {
+    font-size: 24px;
+    text-align: center;
+}
+
+.recipe-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+.recipe-list li {
+    width: 300px;
+    margin: 20px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.recipe-list li:hover {
+    background-color: #ebe9fc;
+}
+
+a:hover {
+    color: black;
+}
+
+.credit{
+    color: #ebe9fc;
+    font-size: 20px;
+}
